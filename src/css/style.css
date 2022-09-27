@@ -50,8 +50,12 @@ ul{
     display: flex;
     justify-content: center;
 }
-.col{
+.col-6 {
     width: 50%;
+}
+.col-3{
+    width: 33.3%;
+    display: flex;
 }
 img{
   width: 100%;
@@ -64,5 +68,8 @@ img{
    
     
 }
-
+.img_conteiner{ 
+    padding: 20px;
+    
+}
    

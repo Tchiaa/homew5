@@ -1,31 +1,44 @@
 body{
-    background-color:rgb(229, 241, 247)
+    background-color:rgb(207, 216, 221)
 
 }
 img{
-    width:50px;
+   width: 25%
 }
-
+.navbar-brand{
+  width: 30px;
+}
 
 .header{
 
     background-color:linear-gradient(#123 30%, #667);
     font-family:fantasy;
-    font-style: color rgb(117, 139, 149);
+    display: flex;
+    justify-content: center;
+    
+    
 }
 
+.nav-link
+{
+color: rgb(94, 86, 109);
 
+}
 
+.btn-c{
 
-body{
-    background:rgb(178, 195, 195);
-  }
-  /* customizable snowflake styling */
+  color: rgb(94, 86, 109);
+  border-bottom: none;
+  background-color:rgb(207, 216, 221);
+  
+
+}
+/* customizable snowflake styling */
   .snowflake {
-    color: #fff;
+    color: rgb(182, 202, 224);
     font-size: 1em;
-    font-family: Arial;
-    text-shadow: 0 0 1px #000;
+    font-family: aria;
+    text-shadow: 0 0 1px rgb(142, 145, 177);
   }
   
   @-webkit-keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}@-webkit-keyframes snowflakes-shake{0%{-webkit-transform:translateX(0px);transform:translateX(0px)}50%{-webkit-transform:translateX(80px);transform:translateX(80px)}100%{-webkit-transform:translateX(0px);transform:translateX(0px)}}@keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}@keyframes snowflakes-shake{0%{transform:translateX(0px)}50%{transform:translateX(80px)}100%{transform:translateX(0px)}}.snowflake{position:fixed;top:-10%;z-index:9999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;cursor:default;-webkit-animation-name:snowflakes-fall,snowflakes-shake;-webkit-animation-duration:10s,3s;-webkit-animation-timing-function:linear,ease-in-out;-webkit-animation-iteration-count:infinite,infinite;-webkit-animation-play-state:running,running;animation-name:snowflakes-fall,snowflakes-shake;animation-duration:10s,3s;animation-timing-function:linear,ease-in-out;animation-iteration-count:infinite,infinite;animation-play-state:running,running}.snowflake:nth-of-type(0){left:1%;-webkit-animation-delay:0s,0s;animation-delay:0s,0s}.snowflake:nth-of-type(1){left:10%;-webkit-animation-delay:1s,1s;animation-delay:1s,1s}.snowflake:nth-of-type(2){left:20%;-webkit-animation-delay:6s,.5s;animation-delay:6s,.5s}.snowflake:nth-of-type(3){left:30%;-webkit-animation-delay:4s,2s;animation-delay:4s,2s}.snowflake:nth-of-type(4){left:40%;-webkit-animation-delay:2s,2s;animation-delay:2s,2s}.snowflake:nth-of-type(5){left:50%;-webkit-animation-delay:8s,3s;animation-delay:8s,3s}.snowflake:nth-of-type(6){left:60%;-webkit-animation-delay:6s,2s;animation-delay:6s,2s}.snowflake:nth-of-type(7){left:70%;-webkit-animation-delay:2.5s,1s;animation-delay:2.5s,1s}.snowflake:nth-of-type(8){left:80%;-webkit-animation-delay:1s,0s;animation-delay:1s,0s}.snowflake:nth-of-type(9){left:90%;-webkit-animation-delay:3s,1.5s;animation-delay:3s,1.5s}
@@ -39,6 +52,284 @@ body{
       text-align: center;
   }
   .demo a{
-    font-family: 'Raleway', sans-serif;
-  color: #000;
+    font-family:fantasy;
+    
+    
+  }
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    overflow-x: hidden;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.image_container{
+    width: 20px;
+    
+}
+.container{
+    width: 1280px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+  .col-1 {
+    flex: 0 0 auto;
+    width: 8.33333333%;
+}
+.col-2 {
+    flex: 0 0 auto;
+    width: 16.66666667%;
+}
+.col-3 {
+    flex: 0 0 auto;
+    width: 25%;
+}
+.col-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+}
+.col-5 {
+    flex: 0 0 auto;
+    width: 41.66666667%;
+}
+.col-6 {
+    flex: 0 0 auto;
+    width: 50%;
+}
+.col-7 {
+    flex: 0 0 auto;
+    width: 58.33333333%;
+}
+.col-8 {
+    flex: 0 0 auto;
+    width: 66.66666667%;
+}
+.col-9 {
+    flex: 0 0 auto;
+    width: 75%;
+}
+.col-10 {
+    flex: 0 0 auto;
+    width: 83.33333333%;
+}
+.col-11 {
+    flex: 0 0 auto;
+    width: 91.66666667%;
+}
+.col-12 {
+    flex: 0 0 auto;
+    width: 100%;
+    
+  
+  }
+  .justiy-content-center{
+      justify-content: center;
+  }
+  .justiy-space-between{
+      justify-content: space-between;
+  }
+  .aling-items-center{
+      align-items: center;
+  }
+  .bi-skiing{
+
+    width: 30px;
+  }
+  .btn_wlc
+{
+      width: 140px;
+      height: 51px;
+      background: #aaaaad;
+      border: none;
+      border-radius: 5px;
+      color: rgb(94, 86, 109);
+      font-weight: 500;
+      font-size: 15px;
+  }
+  .header{
+      margin-top: 40px;
+  }
+ 
+  .banner_heade__text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 70px;
+      line-height: 88px;
+      letter-spacing: -1px;
+      color: rgb(94, 86, 109);
+     
+  }
+  .banner_small__text{
+      font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      color: rgb(94, 86, 109);
+  }
+  .mt-24{
+      margin-top:24px;
+  }
+  .mb-24{
+      margin-bottom: 24px;
+  }
+  .banner{
+      margin-top: 80px;
+ 
+  .desktop_view{
+      display: block;
+  }
+  .header{
+      display: block;
+  }
+  .second_header{
+      display: none;
+  }
+  
+  /* გამოძახების შემთხვევაში გამოიყენეთ ეს */
+  @import url(tablet.css) (min-device-width:481px) and (max-device-width:768);{
+    [class*="col-"]{
+        width: 100%;
+    }
+    .header{
+        display: none;
+    }
+    .second_header{
+        display: block;
+    }
+    .banner_heade__text{
+        font-size: 43px;
+    }
+    .container{
+        width: 350px;
+    }
+    .desktop_view{
+        display: none;
+    }
+  }
+  
+  /* ტელეფონის ზომები */
+  @media(min-width:0px) and (max-width:480px){
+    [class*="col-"]{
+        width: 100%;
+    }
+    .header{
+        display: none;
+    }
+    .second_header{
+        display: block;
+    }
+    .banner_heade__text{
+        font-size: 43px;
+    }
+    .container{
+        width: 350px;
+    }
+    .desktop_view{
+        display: none;
+    }
+  
+  }
+  /* ტელეფონის ზომები და გადმოტრიალებულის ვერსიები */
+  @media(min-width:481px) and (max-width:768px){
+    [class*="col-"]{
+        width: 100%;
+    }
+    .header{
+        display: none;
+    }
+    .second_header{
+        display: block;
+    }
+    .banner_heade__text{
+        font-size: 43px;
+    }
+    .container{
+        width: 350px;
+    }
+    .desktop_view{
+        display: none;
+    }
+  
+  }
+  
+  /* პლანშეტის ზომები */
+  @media(min-width:769px) and (max-width:980px){
+    [class*="col-"]{
+        width: 100%;
+    }
+    .header{
+        display: none;
+    }
+    .second_header{
+        display: block;
+    }
+    .banner_heade__text{
+        font-size: 43px;
+    }
+    .container{
+        width: 350px;
+    }
+    .desktop_view{
+        display: none;
+    }
+  
+  }
+  
+  @media only screen and (max-width:600px) {
+      
+      [class*="col-"]{
+          width: 100%;
+      }
+      .header{
+          display: none;
+      }
+      .second_header{
+          display: block;
+      }
+      .banner_heade__text{
+          font-size: 43px;
+      }
+      .container{
+          width: 350px;
+      }
+      .desktop_view{
+          display: none;
+      }
+  }
+  .item1 {grid-area: header;}
+  .item2 {grid-area: menu;}
+  .item3 {grid-area: main;}
+  .item4 {grid-area: right;}
+  .item5 {grid-area: footer;}
+  .grid-container{
+      display: grid;
+      grid-template-areas:
+      'header header header header header'
+      'menu main main right right'
+      'menu footer footer footer footer';
+    
+      gap: 10px;
+      padding: 10px;
+  }
+  .grid-container > div {
+      background-color: blue;
+      text-align: center;
+      padding: 20px 0;
+      font-size: 30px;
+  }
+  @media only  :-moz-full-screen{
+    
   }

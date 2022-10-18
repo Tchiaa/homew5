@@ -2,8 +2,8 @@ body{
     background-color:rgb(207, 216, 221)
 
 }
-img{
-   width: 25%
+.img{
+   width: 20%
 }
 .navbar-brand{
   width: 30px;
@@ -24,11 +24,14 @@ img{
 color: rgb(94, 86, 109);
 
 }
+.btn_contact{
 
+    border: none;
+}
 .btn-c{
 
   color: rgb(94, 86, 109);
-  border-bottom: none;
+  border: none;
   background-color:rgb(207, 216, 221);
   
 
@@ -166,7 +169,7 @@ img{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
       font-style: normal;
       font-weight: 700;
-      font-size: 70px;
+      font-size: 50px;
       line-height: 88px;
       letter-spacing: -1px;
       color: rgb(94, 86, 109);
@@ -175,7 +178,7 @@ img{
   .banner_small__text{
       font-family: 'Open Sans';
       font-style: normal;
-      font-weight: 400;
+      font-weight: 300;
       font-size: 20px;
       color: rgb(94, 86, 109);
   }

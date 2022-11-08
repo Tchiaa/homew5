@@ -60,7 +60,6 @@ else {
   languages : [ "Georgian", "English", "french"],
   new film: {
     name: "Spiderman",
-
     IMD : 9
   },
 
@@ -70,12 +69,13 @@ else {
     {name: "fils3", imd: 10},
 ]
   }
-  document.write( "<h3>cavea მიმდინარე ფილმები </h3>")
-  for (var i=0; i < cinema.films.length; i++) {
+
+  document.write( "<h3> cavea მიმდინარე ფილმები </h3>")
+  for (var  i = 0; i < cinema.films.length; i++) {
 
    document.write(cinema.films[i].name + "</br>")
   }
-  
+
 
 
 

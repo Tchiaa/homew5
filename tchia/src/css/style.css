@@ -21,7 +21,7 @@ body{
 
 .nav-link
 {
-color: rgb(94, 86, 109);
+color: rgb(109, 86, 87);
 
 }
 .btn_contact{
@@ -190,7 +190,7 @@ img{
       margin-bottom: 24px;
   }
   .banner{
-      margin-top: 80px;
+      margin-top: 80px;}
  
   .desktop_view{
       display: block;
@@ -334,6 +334,7 @@ img{
       padding: 20px 0;
       font-size: 30px;
   }
-  @media only  :-moz-full-screen{
+  @media only: - moz-full-screen{
     
   }
+  
